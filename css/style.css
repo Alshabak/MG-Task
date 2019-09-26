@@ -1,0 +1,955 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+direction: ltr;
+
+
+}
+
+/*----START OF SECTION ONE--------*/
+
+.nav-bar-section{
+    padding: 0.7rem 0 0 2rem;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 5rem;
+
+}
+
+.nav-bar-section .nav-bar .logo-image{
+    width:13rem;
+}
+
+.nav-bar-section .nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar-section .nav-bar ul{
+    text-decoration: none;
+}
+
+.nav-bar-section .nav-bar ul li{
+    display: inline;
+    text-transform: capitalize;
+    font-size:0.86rem;
+    padding: 0 1.4rem 0 2rem;
+}
+
+.nav-bar-section .nav-bar ul li a{
+    text-decoration: none;
+    color: rgba(0,0,0,.9);
+
+}
+
+.nav-bar-section .nav-bar ul li a:hover{
+    color: orangered;
+
+}
+
+.nav-bar-section .nav-bar ul button{
+    text-transform: capitalize;
+    border: none;
+    border-radius: 3rem;
+    font-size:0.95rem;
+    color: white;
+    background-image:linear-gradient(to left ,orange,darkorange,orangered) ;
+    padding: 1rem;
+    width: 9rem;
+    margin-right: 3.15rem;
+    margin-left: 1.8rem;
+}
+
+.nav-bar-section .nav-bar ul button:hover{
+    background-image:linear-gradient(to right ,orange,darkorange,orangered) ;
+
+
+}
+
+/*--*************************--END OF SECTION ONE***************************************************************------*/
+
+/*SECTION TWO*/
+.welcome-message-section{
+    margin: 11rem 0 11rem 0;
+
+}
+
+.welcome-message-section .image-welcome-section{
+    padding: 0 1.2rem 0 2rem;
+}
+
+.welcome-message-section .image-welcome-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.welcome-message-section .image-welcome-section img{
+    width: 32rem;
+
+}
+
+.welcome-message-section .image-welcome-section .text-div span{
+    color: darkslategrey;
+    font-size: 14px;
+    margin-bottom: 1rem;
+
+
+}
+
+.welcome-message-section .image-welcome-section .text-div .title-text{
+
+    font-weight: 700;
+    font-size: 3.9rem;
+    color: #0c2e60;
+    margin-bottom: 3rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.welcome-message-section .image-welcome-section .text-div .long-text{
+    color:#777777;
+    line-height: 2.1rem;
+
+
+}
+
+/*********button-section 2--------*/
+.welcome-message-section .button-message .get-start-button{
+    text-transform: capitalize;
+    border-radius: 3rem;
+    font-size:0.95rem;
+    padding: 1rem;
+    width: 10.8rem;
+    margin-left: 1rem;
+    border: 1px solid darkblue;
+    background-color: snow;
+    color: darkblue;
+
+}
+
+.welcome-message-section .button-message .get-start-button:hover{
+    background-image:linear-gradient(to left ,orange,darkorange,orangered) ;
+    border: none;
+    color: white;
+
+}
+
+.welcome-message-section .button-message .view-course-button {
+    text-transform: capitalize;
+    border-radius: 3rem;
+    font-size:0.95rem;
+    padding: 1.19rem;
+    width: 10.8rem;
+    margin-left: 1.8rem;
+    border: none;
+    background-image:linear-gradient(to left ,orange,darkorange,orangered) ;
+}
+
+.welcome-message-section .button-message .view-course-button:hover{
+    background-image:linear-gradient(to right ,orange,darkorange,orangered) ;
+
+}
+
+.welcome-message-section .button-message .view-course-button a{
+    text-decoration: none;
+    color: white;
+}
+
+/************************END OF SECTION TWO*********************************************************/
+
+/*******************start of section************/
+.fetures-section{
+    text-align: center;
+    margin-bottom: 7.5rem;
+
+}
+
+.fetures-section .awesome{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 1rem 1rem 1rem 1rem;
+
+}
+
+.fetures-section .awesome .title{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: #0c2e60;
+    margin-bottom: 1.2rem;
+    font-family: "Poppins", sans-serif;
+
+
+}
+
+.fetures-section .awesome p{
+    color:#777777;
+    line-height: 1.5rem;
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+}
+
+.fetures-section .awesome .read-more-button{
+    text-transform: capitalize;
+    border-radius: 3rem;
+    font-size:1rem;
+    padding: 1.1rem;
+    width: 9.7rem;
+    border: none;
+    background-image:linear-gradient(to left ,orange,darkorange,orangered) ;
+    transition: 0.5s;
+}
+
+.fetures-section .awesome .read-more-button:hover{
+    background-image:linear-gradient(to right ,orange,darkorange,orangered) ;
+
+
+}
+
+.fetures-section .awesome .read-more-button a{
+    text-decoration: none;
+    color: white;
+}
+
+/*******cards*******/
+
+.fetures-section .awesome .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.fetures-section .awesome .cards .card-one{
+    border: 1px solid lightgray;
+    width: 229px;
+    height: 285px;
+    text-align: center;
+    padding: 2rem 0.5rem 0.5rem 1rem;
+    margin: 0 1rem 0 1rem;
+
+
+
+}
+
+.fetures-section .awesome .cards .card-one .image-card i{
+    background-color: #f0f4f6;
+     border-radius: 100%;
+    color: #212529;
+    width: 4.5rem;
+    height:3.5rem;
+    font-size: 2.5rem;
+    padding-top: 0.7rem;
+
+ }
+
+.fetures-section .awesome .cards .card-one h4{
+    font-weight: 700;
+    color: #0c2e60;
+    font-size:16pt;
+    font-family: "Poppins", sans-serif;
+}
+
+.fetures-section .awesome .cards .card-one p{
+    color: #777777;
+    font-size:0.95rem;
+
+}
+/**************************end of section****************************************************************************/
+
+/************START OF LEARNING SECTION***********************/
+
+.learning-section{
+    margin-bottom:11rem;
+    padding-right: 5rem;
+
+
+}
+
+.learning-section .learning-with-love{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+
+}
+
+.learning-section .learning-with-love .learning-image{
+    width: 28.5rem;
+}
+
+.learning-section .learning-with-love .line{
+    width: 37px;
+    height: 2px;
+    background-color: orangered;
+    margin-right: 0.2rem;
+    display: inline-block;
+
+
+
+}
+
+.learning-section .learning-with-love .text-all .about-text {
+    font-size:0.85rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 0.9rem;
+    color: #556172;
+    opacity: .6;
+    display: inline-block;
+    align-items: center;
+
+
+
+}
+
+.learning-section .learning-with-love .text-all .div-flex{
+
+    display: inline-block;
+}
+
+.learning-section .learning-with-love .learning-text{
+    font-weight: 700;
+    color: #0c2e60;
+    font-size: 2.5rem;
+    margin: 1.35rem 2rem 2rem 0;
+}
+
+.learning-section .learning-with-love .text-all p{
+    color: #556172;
+    font-size: 0.89rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.6rem;
+
+}
+
+.learning-section .learning-with-love .text-all .image-text .image-icon span{
+    color: #556172;
+    font-size: 0.89rem;
+    line-height: 2.2rem;
+
+
+}
+
+.learning-section .learning-with-love .text-all .read-more-button{
+    margin-top: 2.5rem;
+    text-transform: capitalize;
+    border-radius: 3rem;
+    font-size:1rem;
+    padding: 1rem 2rem 1rem 2rem;
+    width: 9.9rem;
+    border: none;
+    background-image:linear-gradient(to left ,orange,darkorange,orangered) ;}
+
+.learning-section .learning-with-love .text-all .read-more-button:hover{
+    background-image:linear-gradient(to right ,orange,darkorange,orangered) ;
+
+
+}
+
+.learning-section .learning-with-love .text-all .read-more-button a{
+    text-decoration: none;
+    color: white;
+}
+
+/*******END OF SECTION LEARNING*****************************************************************************************/
+
+/**********************START OF SECTION PERSANTEG***************************/
+
+.box-persanteg-bar-section {
+
+    margin-bottom:6.5rem;
+    background-image: radial-gradient(orange,orangered);
+    color: white;
+
+}
+
+.box-persanteg-bar-section .border-text {
+    font-weight: 700;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6rem 5rem 6rem;
+
+}
+
+.box-persanteg-bar-section .border-text .teacher .line{
+    width: 60px;
+    height: 2px;
+    background-color: white;
+    margin: 0.5rem 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-persanteg-bar-section .numbers {
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+color: white;
+    align-items: center;
+}
+
+
+
+.border-text .teacher{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.5rem 0 2rem 0;
+}
+
+
+    /*
+    .box-persanteg-bar-section .border-text{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 5rem 1rem 5rem;
+    }
+
+
+    .box-persanteg-bar-section .border-text .teacher .numbers {
+        font-weight: 700;
+        font-size: 1.9rem;
+        align-items: center;
+
+        margin: 2rem 0 11rem 2rem;
+        color: white;
+
+    }
+
+    .box-persanteg-bar-section .border-text .teacher .student{
+        font-size: 1.5rem;
+        text-transform: capitalize;
+        font-weight: 700;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+    margin: 0.5rem 0 0 2rem;
+
+    }
+
+    .box-persanteg-bar-section .border-text .line{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 40px;
+        height: 1px;
+    background-color: white;
+    margin: 0 10rem 1rem  5rem;
+
+    }*/
+/**********************END OF SECTION **********************************************************************************/
+
+.special-course {
+    margin: 10rem 0 11.5rem 0;
+
+}
+
+.special-course .courses-texts .text-short{
+    color: #556172;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0.45rem;
+
+
+}
+
+.special-course .courses-texts .special-course-text{
+    color: #0c2e60;
+    font-size: 2.7rem;
+    font-weight: 900;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+
+}
+
+.special-course .courses-texts .line{
+    width: 90px;
+    height: 2px;
+    background-color: orangered;
+    margin: 0 50% 0 47%;
+
+
+
+}
+
+.special-course .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5rem;
+
+}
+
+.special-course .card .card-one-design{
+    border: 1px solid grey;
+    border-radius: 0.49rem;
+    width:22.5rem;
+    height: 39rem;
+
+}
+
+.special-course .card .card-one-design .span-price{
+    color: orangered;
+    margin-left: 6.2rem;
+    font-weight: 700;
+
+}
+
+.special-course .card .card-one-design img{
+    margin-bottom: 2rem;
+
+}
+
+.special-course .card .card-one-design button{
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 0.95rem;
+    padding: 0.5rem 0 0.5rem 0;
+    margin-left: 1.3rem;
+    border: none;
+    text-transform: capitalize;
+    width:9.5rem;
+
+}
+
+.special-course .card .card-one-design .main-text{
+    text-transform: capitalize;
+    color: #0c2e60;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 1.3rem;
+    margin-top: 1.1rem;
+
+}
+
+.special-course .card .card-one-design p{
+    color: #556172;
+    font-size: 0.75rem;
+    line-height: 1.2rem;
+    margin-bottom: 1.6rem;
+    margin-left: 1.3rem;
+    text-transform: capitalize;
+
+
+
+}
+
+.special-course .card .card-one-design .line{
+    width: 240px;
+    height: 1px;
+    margin: 2rem 3rem 2rem 3rem;
+    background-color: #777777;
+
+
+}
+
+
+.special-course .card .card-one-design .teacher-img img{
+    width: 2.5rem;
+    margin-left: 2.5rem;
+
+}
+
+/*
+.special-course .card .card-one-design .teacher-img .div-text-of-teacher{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+
+
+}
+.special-course .card .card-one-design .teacher-img  .div-text-of-teacher span {
+
+    color: #777777;
+}
+
+.conduct-text{
+    margin-left: 6.5rem;
+
+}
+
+
+.div-text-of-teacher .icon-rating i{
+    font-size: 1rem;
+
+}
+
+*/
+
+/*********************************end of section***********************************************/
+.advance-feature-section{
+    margin-bottom: 7rem;
+
+}
+
+.advance-feature-section .advance-div{
+
+    margin-bottom: 0.2rem;
+}
+
+.advance-feature-section .advance-div .line{
+
+    width: 40px;
+    height: 2px;
+    background-color: orangered;
+    position: absolute;
+
+}
+
+.advance-feature-section .advance-div span{
+
+    color: #556172;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-left: 3rem;
+
+
+}
+
+.advance-feature-section .text-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.advance-feature-section .text-advance-small{
+    display: inline-block;
+
+
+}
+
+.advance-feature-section  .text-div .text-advance-small .adnavce-text{
+    font-size: 2.69rem;
+    font-weight: 700;
+    color: #0c2e60;
+    margin-bottom: 1rem;
+
+
+}
+
+.advance-feature-section  .text-div .text-advance-small p{
+    color: #888888;
+    line-height: 1.5rem;
+    font-size: 0.89rem;
+    margin-bottom:5rem;
+
+}
+
+.advance-feature-section .font-image-expert-teacher{
+
+    display: flex;
+    flex-direction: row;
+
+
+}
+.advance-feature-section .font-image-expert-teacher .icon-one i{
+
+    background-color: #fff0e0;
+    width: 60px;
+    height: 42px;
+    padding-top: 1rem;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.advance-feature-section .text-advance-small .font-image-expert-teacher .icon-one .text-font{
+    color: #0c2e60;
+    font-size: 1.45rem;
+    font-weight: 700;
+}
+
+.advance-feature-section .text-advance-small .font-image-expert-teacher .icon-one p{
+    color: #888888;
+    font-size: 0.90rem;
+    line-height: 1.95rem;
+    margin-right: 1.5rem;
+
+
+}
+
+.advance-feature-section .advance-div img{
+    width: 70rem;
+
+
+}
+
+/********************student blog section******************************/
+.student-blog {
+    margin: 15rem 0 9rem 0;
+
+}
+
+.student-blog .our-blog .text-short{
+    color: #556172;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0.45rem;
+
+
+}
+
+.student-blog .our-blog .student-blog-text{
+    color: #0c2e60;
+    font-size: 2.7rem;
+    font-weight: 900;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+
+}
+
+.student-blog .our-blog .line{
+    width: 90px;
+    height: 2px;
+    background-color: orangered;
+    margin: 0 50% 0 47%;
+
+
+
+}
+
+.student-blog .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5rem;
+
+}
+
+.student-blog .card .card-one-design{
+    border: 1px solid grey;
+    border-radius: 0.49rem;
+    width:22.5rem;
+height: 37rem;
+
+}
+
+.student-blog .card .card-one-design img{
+    margin-bottom: 2rem;
+
+}
+
+.student-blog .card .card-one-design button{
+    background-color:#ff663b;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1rem;
+padding: 0.5rem 0 0.5rem 0;
+    margin-left: 1.3rem;
+    border: none;
+    text-transform: capitalize;
+    width: 7.5rem;
+
+}
+
+.student-blog .card .card-one-design .main-text{
+    text-transform: capitalize;
+    color: #0c2e60;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 1.3rem;
+margin-top: 1.1rem;
+
+}
+
+.student-blog .card .card-one-design p{
+    color: #556172;
+    font-size: 0.75rem;
+    line-height: 1.2rem;
+    margin-bottom: 1.6rem;
+    margin-left: 1.3rem;
+    text-transform: capitalize;
+
+
+
+}
+
+.student-blog .card .card-one-design .line{
+    width: 240px;
+    height: 1px;
+    margin: 2rem 3rem 2rem 3rem;
+    background-color: #777777;
+
+
+}
+
+.student-blog .card .card-one-design span{
+    text-transform: capitalize;
+}
+
+.student-blog .card .card-one-design .comment-img i{
+    margin-left: 3.5rem;
+    width: 1rem;
+    color: #777777;
+    font-size: 1rem;
+
+}
+
+/*****************finish section*******************************/
+
+.last-section{
+
+
+    background-color: #f7f7f7;
+padding: 4.2rem 0 2rem 0 ;
+
+}
+
+.last-section p{
+    font-size: 0.88rem;
+
+    color:#212529;
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.last-section .main-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.last-section .main-text .image-logo .logo{
+  width: 10rem;
+
+
+}
+/*.last-section .main-text p{
+    font-size: 0.88rem;
+    color: gray;
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+*/
+.last-section .main-text .news-latter{
+    color: #0c2e60;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+
+
+}
+
+.last-section .main-text input{
+    border: 1px solid #556172;
+   width: 19.5rem;
+    height: 3rem;
+    padding-left: 1rem;
+    color: orangered;
+  margin: 0.5rem 0 1rem 0;
+    background-color:  #ffffff;
+}
+
+.last-section .main-text .social-media-img img{
+    opacity: 0.3;
+    width: 0.9rem;
+    margin-right: 1rem;
+}
+
+/*
+
+.last-section .main-text .news p{
+    font-size: 0.88rem;
+    color: gray;
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+*/
+
+.last-section .main-text  .contact-us {
+    color: #003366;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    margin-bottom: 1.7rem;
+
+}
+
+.last-section hr{
+
+    opacity: 0.5;
+    width: 100%;
+    margin-top: 9rem;
+}
+
+.last-section .copyright {
+    text-align: center;
+
+
+}
+
+.last-section .copyright span{
+    color: #ff663b;
+    padding-bottom: 3rem;
+}
+
+.contact .address {
+    color: #003366;
+    font-weight: 500;
+}
+
+span{
+
+    font-size: 0.88rem;
+    color: gray;
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/*************EXTRAS****************/
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.small-container{
+    margin: auto;
+    width: 1100px;
+
+
+}
